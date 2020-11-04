@@ -10,6 +10,7 @@ int main()
         cin>>a[i];
     int current_sum=0;
     int mx=INT_MIN;
+    //using only one loop 
     for(int i=0;i<n;i++)
     {
         current_sum=current_sum+a[i];
