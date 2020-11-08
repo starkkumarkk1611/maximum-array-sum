@@ -14,7 +14,7 @@ int main()
     for(int i=0;i<n;i++)
     {
         current_sum=current_sum+a[i];
-        if(a[i]<0)
+        if(current_sum<0)
         {
             current_sum=0;
         }
